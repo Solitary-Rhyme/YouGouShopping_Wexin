@@ -24,6 +24,32 @@
 		}
 
 	}],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				
+			{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "优购",
@@ -34,6 +60,7 @@
 		}
 	},
 	"tabBar": {
+		"selectedColor": "#C00000",
 		"list": [{
 				"pagePath": "pages/home/home",
 				"iconPath": "static/tab_icons/home.png",
